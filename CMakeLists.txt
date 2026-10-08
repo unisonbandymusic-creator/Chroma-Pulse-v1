@@ -51,10 +51,11 @@ juce_add_plugin(Pulse
 
 target_sources(Pulse
     PRIVATE
-        Source/PluginProcessor.cpp
-        Source/PluginProcessor.h
-        Source/PluginEditor.cpp
-        Source/PluginEditor.h
+        PluginProcessor.cpp
+        PluginProcessor.h
+        PluginEditor.cpp
+        PluginEditor.h
+
 )
 
 target_compile_definitions(Pulse
